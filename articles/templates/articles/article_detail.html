@@ -1,0 +1,13 @@
+<!-- articles/templates/articles/article_detail.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ article.title }}</title>
+</head>
+<body>
+    <h1>{{ article.title }}</h1>
+    <p>Author: {{ article.author }}</p>
+    <p>Keywords: {{ article.content }}</p>
+    <a href="{{ article.full_pdf.url }}">Read Full Article</a>
+</body>
+</html>
